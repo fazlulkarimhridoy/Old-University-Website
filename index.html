@@ -19,17 +19,17 @@
 
 <body>
   <!-- Header section -->
-  <section class="header">
+  <section class="header" id="home">
     <nav>
       <a href=""><img src="/img/logo.png"></a>
       <div class="nav-links" id="navLinks">
         <i class="fas fa-times" onclick="hideMenu()"></i>
         <ul>
-          <li><a href="">HOME</a></li>
-          <li><a href="">ABOUT</a></li>
-          <li><a href="">COURSE</a></li>
-          <li><a href="">BLOG</a></li>
-          <li><a href="">CONTACT</a></li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#course">COURSE</a></li>
+          <li><a href="#blog">BLOG</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
       <i class="fas fa-bars" onclick="showMenu()"></i>
@@ -44,29 +44,38 @@
 
   <!-- COURSE -->
 
-  <section class="course">
+  <section class="course" id="course">
     <h1>Course's we offer</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et.</p>
     <div class="row">
       <div class="course-col">
         <h3>Intermediate</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ut cumque at voluptatem expedita voluptatum impedit provident ducimus consectetur, fugiat repudiandae magni cupiditate labore placeat est accusamus dicta sequi. Exercitationem possimus nostrum earum, nihil enim impedit dicta tempore, eum quidem quasi, dolorum veritatis dignissimos dolor fuga ducimus cumque ad rem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ut cumque at voluptatem expedita voluptatum
+          impedit provident ducimus consectetur, fugiat repudiandae magni cupiditate labore placeat est accusamus dicta
+          sequi. Exercitationem possimus nostrum earum, nihil enim impedit dicta tempore, eum quidem quasi, dolorum
+          veritatis dignissimos dolor fuga ducimus cumque ad rem!</p>
       </div>
       <div class="course-col">
         <h3>Degree</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed quis temporibus pariatur labore error, aliquam architecto ab quod eius quibusdam alias natus voluptatibus ipsam quae sit consectetur? Suscipit nulla architecto, accusamus quidem deleniti praesentium excepturi soluta similique, nam, id et tenetur doloremque itaque amet cumque dolorum distinctio aut sed!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem sed quis temporibus pariatur labore error,
+          aliquam architecto ab quod eius quibusdam alias natus voluptatibus ipsam quae sit consectetur? Suscipit nulla
+          architecto, accusamus quidem deleniti praesentium excepturi soluta similique, nam, id et tenetur doloremque
+          itaque amet cumque dolorum distinctio aut sed!</p>
       </div>
       <div class="course-col">
         <h3>Post Graduation</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam cupiditate quae quod autem dolores, sit blanditiis obcaecati et doloribus eum magnam consequatur incidunt nisi earum! Nulla, aut! Sapiente doloremque impedit, voluptatum nam temporibus nulla excepturi quae autem, distinctio eveniet fugiat mollitia quam ullam numquam! Repudiandae provident voluptatibus ipsum deserunt!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam cupiditate quae quod autem dolores,
+          sit blanditiis obcaecati et doloribus eum magnam consequatur incidunt nisi earum! Nulla, aut! Sapiente
+          doloremque impedit, voluptatum nam temporibus nulla excepturi quae autem, distinctio eveniet fugiat mollitia
+          quam ullam numquam! Repudiandae provident voluptatibus ipsum deserunt!</p>
       </div>
-     </div>
+    </div>
   </section>
 
 
   <!-- CAMPUS -->
 
-  <section class="campus">
+  <section class="campus" id="about">
     <h1>Our Campus</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, et.</p>
 
@@ -96,7 +105,8 @@
 
   <section class="facilities">
     <h1>Facilities</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias voluptate in saepe aperiam voluptas. Dolor!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias voluptate in saepe aperiam voluptas. Dolor!
+    </p>
 
     <div class="row">
       <div class="facilities-col">
@@ -115,14 +125,61 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptas.</p>
       </div>
     </div>
-
-
-
-
-
   </section>
 
+  <!-- Testimonials -->
 
+  <section class="testimonials" id="blog">
+    <h1>Testimonials</h1>
+    <p>These are the given reviews from the student's of this university</p>
+    <div class="row">
+      <div class="testimonials-col">
+        <img src="/img/user1.jpg">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dignissimos voluptatibus vitae laboriosam,
+            tenetur non nemo minus cumque qui, quas libero obcaecati nisi! Laudantium eius sit in facilis quam ut.</p>
+          <h3>Swarna Akter Mili</h3>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+      </div>
+      <div class="testimonials-col">
+        <img src="/img/user2.jpg">
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, dignissimos voluptatibus vitae laboriosam,
+            tenetur non nemo minus cumque qui, quas libero obcaecati nisi! Laudantium eius sit in facilis quam ut.</p>
+          <h3>Fazlul Karim Hridoy</h3>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+  <section class="cta">
+    <h1>Call to action</h1>
+  </section>
+
+  <!-- Footer -->
+  <section class="footer">
+    <h1>Contact Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error asperiores possimus sapiente reiciendis, deleniti
+      sint.</p>
+    <div class="icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <p>Designed by Syed Fazlul Karim Hridoy</p>
+  </section>
 
 
 
