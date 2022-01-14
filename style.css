@@ -77,7 +77,6 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
-    border-radius: 10px;
 }
 .hero-btn:hover{
     border: 1px rgb(190, 23, 23);
@@ -98,7 +97,7 @@ nav .fas{
         display: block;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         background:rgb(190, 23, 23);
         height: 100vh;
         width: 200px;
@@ -382,6 +381,147 @@ h3{
 .red-btn:hover{
     color: white;
 }
+
+/* -----blog-content---------- */
+
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog-left{
+    flex-basis: 65%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h2{
+    font-weight: 600px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 0;
+}
+.blog-left p{
+    padding: 0;
+}
+.blog-right{
+    flex-basis: 32%;
+}
+.blog-right h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: orangered;
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 30px;
+}
+.blog-right div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.comment-box{
+    border: 1px solid #ccc;
+    margin: 20px 5px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.comment-box h3{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.comment-form input, .comment-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: rgb(211, 211, 211);
+}
+.white-btn{
+    color: rgb(185, 185, 185);
+    border: 1px solid rgb(185, 185, 185);
+    background: transparent;
+}
+.white-btn:hover{
+    color: white;
+}
+@media(max-width:700){
+    .sub-header h1{
+        font-size: 24px;
+    }
+}
+
+
+/* -------contact-us------- */
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-col{
+    flex-basis: 40%;
+}
+.contact-left div{
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 15px 10px;
+}
+.contact-left .fas, .far{
+    padding: 15px 30px;
+    font-size: 30px;
+    color: rgb(36, 216, 12);
+}
+.contact-left div h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-right input, .contact-right textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
