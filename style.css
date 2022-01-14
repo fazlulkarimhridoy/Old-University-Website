@@ -475,7 +475,12 @@ h3{
     text-align: left;
     padding: 15px 10px;
 }
-.contact-left .fas, .far{
+.contact-left .fas{
+    padding: 15px 30px;
+    font-size: 30px;
+    color: rgb(36, 216, 12);
+}
+.contact-left .far{
     padding: 15px 30px;
     font-size: 30px;
     color: rgb(36, 216, 12);
